@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/non/catkin_ctr_new/src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils/include/pose_utils.h
+iostream
+-
+armadillo
+/home/non/catkin_ctr_new/src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils/include/armadillo
+
+/home/non/catkin_ctr_new/src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp
+pose_utils.h
+/home/non/catkin_ctr_new/src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils/src/pose_utils.h
+

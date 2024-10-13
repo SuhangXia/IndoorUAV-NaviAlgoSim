@@ -1,0 +1,8 @@
+prefix=/home/non/catkin_ctr_new/devel
+
+Name: px4ctrl
+Description: Description of px4ctrl
+Version: 0.0.0
+Cflags: -I/home/non/catkin_ctr_new/devel/include -I/home/non/catkin_ctr_new/src/px4ctrl/include
+Libs: -L${prefix}/lib -lpx4ctrl
+Requires: dynamic_reconfigure quadrotor_msgs roscpp rospy geometry_msgs sensor_msgs mavros_msgs

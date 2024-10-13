@@ -1,0 +1,8 @@
+prefix=/home/non/catkin_ctr_new/devel
+
+Name: cmake_utils
+Description: Description of cmake_utils
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

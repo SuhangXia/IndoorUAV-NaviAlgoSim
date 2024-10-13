@@ -1,0 +1,8 @@
+prefix=/home/non/catkin_ctr_new/devel
+
+Name: traj_utils
+Description: Description of traj_utils
+Version: 0.0.0
+Cflags: -I/home/non/catkin_ctr_new/devel/include -I/home/non/catkin_ctr_new/src/ego-planner-swarm/src/planner/traj_utils/include
+Libs: -L${prefix}/lib -ltraj_utils
+Requires: message_runtime
